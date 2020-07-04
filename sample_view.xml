@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+-<LinearLayout android:layout_height="65dp" android:layout_width="match_parent" android:layout_marginBottom="10dp" android:layout_marginTop="10dp" android:weightSum="4">
+
+<ImageView android:layout_height="wrap_content" android:layout_width="1dp" android:id="@+id/ImageViewId" android:src="@drawable/brazil" android:layout_weight="1"/>
+
+
+-<LinearLayout android:layout_height="match_parent" android:layout_width="1dp" android:layout_weight="3" android:orientation="vertical">
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:id="@+id/countryNameId" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal" android:text="Brazil"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="5dp" android:id="@+id/countryDescriptionId" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center_horizontal" android:text="Click here to see the discreption" android:layout_marginLeft="20dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
